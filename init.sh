@@ -4,14 +4,9 @@
 set -e
 set -x
 
-
 mkdir -p plugins
 mkdir -p platforms
 
-ln -sfn ../austingreenmap www
+ln -sfn ../austingreenmap/build www
 
 cordova build ios
-
-cordova plugin add https://github.com/apache/cordova-plugin-geolocation
-cordova plugin add org.apache.cordova.statusbar
-

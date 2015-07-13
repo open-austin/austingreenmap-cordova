@@ -23,7 +23,10 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <preference name="DisallowOverscroll" value="true" />
-        <preference name="StatusBarStyle" value="darkcontent" />
+        <preference name="StatusBarStyle" value="lightcontent" />
         <preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#389E46" />
     </platform>
+    <plugin name="cordova-plugin-statusbar" spec="^1.0.1" />
+    <plugin name="cordova-plugin-geolocation" spec="^1.0.1" />
 </widget>
