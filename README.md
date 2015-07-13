@@ -14,9 +14,18 @@ cd austingreenmap-cordova
 
 # Usage
 
+First, in the austingreenmap repo:
+
+```
+gulp clean
+gulp build
+gulp inject-cordova
+```
+
+Then in austingreenmap-cordova:
+
 ```
 cordova build ios
 open platforms/ios/AustinGreenMap.xcodeproj
 Click `Run`
 ```
-
