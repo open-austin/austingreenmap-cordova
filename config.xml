@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.openaustin.austingreenmap" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>AustinGreenMap</name>
+    <name>Austin Green Map</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        An easy to browse gallery of the parks in Austin.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="info@open-austin.org" href="http://open-austin.org">
+        Open Austin
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" version="1" />
@@ -16,9 +16,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
@@ -26,6 +23,20 @@
         <preference name="StatusBarStyle" value="lightcontent" />
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#389E46" />
+
+        <!-- iOS icons from makeicons -->
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-Small@2x.png" width="58" height="58" />
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-Small@3x.png" width="87" height="87" />
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-40@2x.png" width="80" height="80" />
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-40@3x.png" width="120" height="120" />
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-60@2x.png" width="120" height="120" />
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-60@3x.png" width="180" height="180" />
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-Small.png" width="29" height="29" />
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-Small@2x.png" width="58" height="58" />
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-40.png" width="40" height="40" />
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-40@2x.png" width="80" height="80" />
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-76.png" width="76" height="76" />
+        <icon src="assets/icon/ios/AppIcon.appiconset/Icon-76@2x.png" width="152" height="152" />
     </platform>
     <plugin name="cordova-plugin-statusbar" spec="^1.0.1" />
     <plugin name="cordova-plugin-geolocation" spec="^1.0.1" />
