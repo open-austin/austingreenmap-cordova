@@ -26,6 +26,6 @@ Then in austingreenmap-cordova:
 
 ```
 cordova build ios
-open platforms/ios/AustinGreenMap.xcodeproj
+open platforms/ios/Green\ Map.xcodeproj
 Click `Run`
 ```

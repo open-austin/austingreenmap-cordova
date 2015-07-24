@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.openaustin.austingreenmap" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Austin Green Map</name>
+    <name>Green Map</name>
     <description>
         An easy to browse gallery of the parks in Austin.
     </description>
@@ -37,6 +37,17 @@
         <icon src="assets/icon/ios/AppIcon.appiconset/Icon-40@2x.png" width="80" height="80" />
         <icon src="assets/icon/ios/AppIcon.appiconset/Icon-76.png" width="76" height="76" />
         <icon src="assets/icon/ios/AppIcon.appiconset/Icon-76@2x.png" width="152" height="152" />
+        <!-- images are determined by width and height. The following are supported -->
+        <splash src="/assets/splash/iphone/Default.png" width="320" height="480"/>
+        <splash src="/assets/splash/iphone/Default@2x.png" width="640" height="960"/>
+        <splash src="/assets/splash/iphone/Default-Portrait.png" width="768" height="1024"/>
+        <splash src="/assets/splash/iphone/Default-Portrait@2x.png" width="1536" height="2048"/>
+        <splash src="/assets/splash/iphone/Default-Landscape.png" width="1024" height="768"/>
+        <splash src="/assets/splash/iphone/Default-Landscape@2x.png" width="2048" height="1536"/>
+        <splash src="/assets/splash/iphone/Default-568h@2x.png" width="640" height="1136"/>
+        <splash src="/assets/splash/iphone/Default-667h@2x.png" width="750" height="1334"/>
+        <splash src="/assets/splash/iphone/Default-Portrait-736h@3x.png" width="1242" height="2208"/>
+        <splash src="/assets/splash/iphone/Default-Landscape-736h@3x.png" width="2208" height="1242"/>
     </platform>
     <plugin name="cordova-plugin-statusbar" spec="^1.0.1" />
     <plugin name="cordova-plugin-geolocation" spec="^1.0.1" />

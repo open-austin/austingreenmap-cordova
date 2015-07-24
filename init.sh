@@ -12,4 +12,4 @@ ln -sfn ../austingreenmap/build www
 cordova platform add ios
 cordova build ios
 
-open platforms/ios/AustinGreenMap.xcodeproj/
+open platforms/ios/GreenMap.xcodeproj/
