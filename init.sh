@@ -9,4 +9,7 @@ mkdir -p platforms
 
 ln -sfn ../austingreenmap/build www
 
+cordova platform add ios
 cordova build ios
+
+open platforms/ios/GreenMap.xcodeproj/
